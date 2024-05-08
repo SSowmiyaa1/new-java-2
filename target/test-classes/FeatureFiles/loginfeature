@@ -1,0 +1,42 @@
+Feature: To validate the login functionality of facebook
+
+Background:
+Given launch browser and pass url
+
+#Scenario Outline: To validate login with all conditions
+
+#When To enter the "<username>" and "<password>" and click the logic button
+
+#Then To navigate the profile page
+
+#Examples:
+   #|username|password|
+   #|java|java@123|
+  # |python|python@123|
+  #Datatable-aslist
+ # Scenario: to pass the values
+  
+  #When to pass values in username and password 
+  
+  #|java|java@123|sql|sql@123|
+   #And click the button
+  #Then to navigate the home page
+  
+  Scenario: to enter the values 
+  
+  When  to enter values in page
+  
+  |java|java@123|sql|sql@123|
+  |python|python@123|mad|mad@123|
+  |.net|.net@123|sel|sel@123|
+  
+  And click the login
+  Then go to next page
+
+
+
+
+
+
+
+
